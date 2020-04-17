@@ -1,6 +1,8 @@
 # LYT-DL
 ### A Lynda Course Downloader
 
+![LYT-DL_ScreenShot](https://raw.githubusercontent.com/shfqrkhn/lytdl/master/LYT-DL_SS.PNG)
+
 ## Workflow
 1. Gather all prerequisites (see below).
 2. Login to Lynda with FireFox or Chrome and get 'cookies.txt' extension.
