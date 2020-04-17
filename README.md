@@ -2,25 +2,27 @@
 ### A Lynda Course Downloader
 
 ## Workflow
-1. Gather all prerequisites
+1. Gather all prerequisites (see below)
 2. Login to Lynda with FF or Chrome and get 'cookies.txt' extension
-3. Get cookies.txt path
-4. Get save folder path
-5. Get course URL and extract folder name
-6. Check if files exist: youtube-dl.exe, ffmpeg.exe, cookies.txt
-7. Delete file contents in archive.txt, temp.bat
-8. Generate exe using PyInstaller
+3. Select cookies.txt path within LYT-DL
+4. Select save folder path within LYT-DL
+5. Copy/Paste (CTRL+C / CTRL+V) course URL within LYT-DL
+6. Check if files exist: youtube-dl.exe, ffmpeg.exe, cookies.txt ('Pre-Launch Safety Check' button)
+7. Start: 'Launch LYT-DL' button
 
 ## Prerequisites    
+### Download LYT-DL Release Archive and Extract:
+https://github.com/shfqrkhn/lytdl/releases
+
 ### Google Chrome + 'cookies.txt' Extension:    
 https://www.google.com/chrome/
-https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg
-
+https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg    
+#### OR,    
 ### Firefox + 'cookies.txt' Extension:    
 https://www.mozilla.org/en-CA/firefox/new/
 https://addons.mozilla.org/en-CA/firefox/addon/cookies-txt/
 
-### Python3:    
+### Python3 (optional):    
 https://www.python.org/downloads/windows/
 
 ### YouTube-DL + FFmpeg + VCRedist:    
