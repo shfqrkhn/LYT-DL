@@ -17,11 +17,11 @@
 https://github.com/shfqrkhn/lytdl/releases
 
 ### Google Chrome + 'cookies.txt' Extension:    
-https://www.google.com/chrome/
+https://www.google.com/chrome/    
 https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg    
 #### OR,    
 ### Firefox + 'cookies.txt' Extension:    
-https://www.mozilla.org/en-CA/firefox/new/
+https://www.mozilla.org/en-CA/firefox/new/    
 https://addons.mozilla.org/en-CA/firefox/addon/cookies-txt/
 
 ### Python3 (optional):    
