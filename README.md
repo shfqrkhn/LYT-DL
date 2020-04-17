@@ -17,18 +17,18 @@ A Lynda Course Downloader
 
 
 """ Prerequisites
-Google Chrome + 'cookies.txt' Extension:
+Google Chrome + 'cookies.txt' Extension:    
 https://www.google.com/chrome/
 https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg
 
-Firefox + 'cookies.txt' Extension:
+Firefox + 'cookies.txt' Extension:    
 https://www.mozilla.org/en-CA/firefox/new/
 https://addons.mozilla.org/en-CA/firefox/addon/cookies-txt/
 
-Python3:
+Python3:    
 https://www.python.org/downloads/windows/
 
-YouTube-DL + FFmpeg + VCRedist:
+YouTube-DL + FFmpeg + VCRedist:    
 https://ytdl-org.github.io/youtube-dl/download.html
 https://ffmpeg.zeranoe.com/builds/
 https://aka.ms/vs/16/release/vc_redist.x86.exe
