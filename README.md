@@ -1,5 +1,5 @@
 # LYT-DL
-### A Lynda Course Downloader
+### A Lynda.com (LinkedIn Learning) Course Downloader
 
 ![LYT-DL_ScreenShot](https://raw.githubusercontent.com/shfqrkhn/lytdl/master/LYT-DL_SS.PNG)
 
