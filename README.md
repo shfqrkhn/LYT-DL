@@ -5,9 +5,9 @@
 
 ## Workflow
 1. Gather all prerequisites (see below).
-2. Login to Lynda with FireFox or Chrome and get 'cookies.txt' extension.
-3. Select cookies.txt path within LYT-DL. Path must not contain space.
-4. Select save folder path within LYT-DL. Path must not contain space. Example: C:\Lynda. A course-specific folder will be created automatically within the selected folder.
+2. Log in to Lynda with Firefox or Chrome and get 'cookies.txt' extension.
+3. Select cookies.txt path within LYT-DL. The path must not contain space.
+4. Select the save folder path within LYT-DL. The path must not contain space. Example: C:\Lynda. A course-specific folder will be created automatically within the selected folder.
 5. Copy/Paste (CTRL+C / CTRL+V) course URL within LYT-DL. URL must end in '.html'. Example: https://www.lynda.com/Python-tutorials/Learning-Python/661773-2.html.
 6. 'Pre-Launch Safety Check': Check if files exist and other requirements validations (see above requirements).
 7. 'Launch LYT-DL': begin download.
@@ -35,8 +35,9 @@ https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 
 ## Common issues
-### PowerShell execution polocy:
+### PowerShell execution policy:
 1. Open PowerShell in Administrator mode, input command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned (source: https://docs.microsoft.com/en-ca/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7)
+2. Make sure Windows and VCRedist are up to date
 
 
 ## Code Snippets
