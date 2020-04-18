@@ -28,10 +28,10 @@ https://addons.mozilla.org/en-CA/firefox/addon/cookies-txt/
 https://www.python.org/downloads/windows/
 
 ### YouTube-DL (optional) + FFmpeg (optional) + VCRedist:    
-https://ytdl-org.github.io/youtube-dl/download.html
-https://ffmpeg.zeranoe.com/builds/
-https://aka.ms/vs/16/release/vc_redist.x86.exe
-https://aka.ms/vs/16/release/vc_redist.x64.exe
+https://ytdl-org.github.io/youtube-dl/download.html    
+https://ffmpeg.zeranoe.com/builds/    
+https://aka.ms/vs/16/release/vc_redist.x86.exe    
+https://aka.ms/vs/16/release/vc_redist.x64.exe    
 
 
 ## Code Snippets
