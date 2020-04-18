@@ -36,11 +36,11 @@ https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 ## Common issues
 ### PowerShell execution polocy:
-1. Open PowerShell in Administrator mode and input: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+1. Open PowerShell in Administrator mode, input command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned (source: https://docs.microsoft.com/en-ca/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7)
 
 
 ## Code Snippets
-###Empty a text file:
+### Empty a text file:
 open('archive.txt', 'w').close()
 
 ### Delete file if exists:
