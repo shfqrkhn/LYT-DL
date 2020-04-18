@@ -28,7 +28,7 @@ while True:
     folder_path = folder_path.replace("/", "\\")
     part_cookie = '.\youtube-dl.exe --download-archive archive.txt --cookies ' + cookie_path + ' -o '
     part_folder = '\"' + folder_path + '%(playlist_index)s - %(title)s.%(ext)s\" '
-    part_URL = course_url + ' --playlist-start 1 --all-subs'
+    part_URL = course_url + ' --playlist-start 1 --all-subs --no-check-certificate'
 
 
     def qc():
