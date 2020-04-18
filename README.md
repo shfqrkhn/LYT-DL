@@ -24,7 +24,7 @@ https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjo
 https://www.mozilla.org/en-CA/firefox/new/    
 https://addons.mozilla.org/en-CA/firefox/addon/cookies-txt/
 
-### Python3 (optional):    
+### Python3:    
 https://www.python.org/downloads/windows/
 
 ### YouTube-DL (optional) + FFmpeg (optional) + VCRedist:    
