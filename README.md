@@ -35,9 +35,9 @@ https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 
 ## Common issues
-### PowerShell execution policy:
+### PowerShell execution policy: Allow PowerShell to run command scripts
 1. Open PowerShell in Administrator mode, input command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned (source: https://docs.microsoft.com/en-ca/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7)
-### MSVCR100.dll missing
+### MSVCR100.dll missing (i.e. nothing is happening): Visual C Runtime is missing
 1. Make sure Windows and VCRedist are up to date
 2. Visit for more info: https://www.kapilarya.com/the-program-cant-start-because-mfc100u-dll-is-missing-from-your-computer-windows-10
 
