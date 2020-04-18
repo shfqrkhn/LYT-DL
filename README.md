@@ -37,7 +37,9 @@ https://aka.ms/vs/16/release/vc_redist.x64.exe
 ## Common issues
 ### PowerShell execution policy:
 1. Open PowerShell in Administrator mode, input command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned (source: https://docs.microsoft.com/en-ca/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7)
-2. Make sure Windows and VCRedist are up to date
+### MSVCR100.dll missing
+1. Make sure Windows and VCRedist are up to date
+2. Visit for more info: https://www.kapilarya.com/the-program-cant-start-because-mfc100u-dll-is-missing-from-your-computer-windows-10
 
 
 ## Code Snippets
