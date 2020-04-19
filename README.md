@@ -27,14 +27,14 @@ https://addons.mozilla.org/en-CA/firefox/addon/cookies-txt/
 ### Python3:    
 https://www.python.org/downloads/windows/
 
-### YouTube-DL (optional) + FFmpeg (optional) + VCRedist:    
+### YouTube-DL (optional) + FFmpeg (optional) + VCRedist (very important- see Common Issues below):    
 https://ytdl-org.github.io/youtube-dl/download.html    
 https://ffmpeg.zeranoe.com/builds/    
 https://aka.ms/vs/16/release/vc_redist.x86.exe    
 https://aka.ms/vs/16/release/vc_redist.x64.exe    
 
 
-## Common issues
+## Common Issues
 ### PowerShell execution policy: Allow PowerShell to run command scripts
 1. Open PowerShell in Administrator mode, input command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned (source: https://docs.microsoft.com/en-ca/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7)
 ### MSVCR100.dll missing (i.e. nothing is happening): Visual C Runtime is missing
