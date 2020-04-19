@@ -1,11 +1,9 @@
 #!/usr/bin/env Python3
 import os
-import subprocess
-import sys
 
 import PySimpleGUI as sg
 
-sg.ChangeLookAndFeel('Dark')
+sg.ChangeLookAndFeel('Topanga')
 
 layout = [
     [sg.InputText('Locate \'cookies.txt\' (cannot contain space)'), sg.FileBrowse()],
@@ -14,7 +12,7 @@ layout = [
     [sg.Button('Pre-Launch Safety Check'), sg.Button('Launch LYT-DL'), sg.Button('Abort Launch')]
 ]
 
-window = sg.Window('LYT-DL', layout)
+window = sg.Window('LYT-DL', layout, no_titlebar=True, grab_anywhere=True, border_depth=5)
 
 while True:
     event, values = window.read()
