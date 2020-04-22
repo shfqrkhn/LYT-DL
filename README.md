@@ -36,6 +36,8 @@ https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 
 ## Common Issues
+#### Note: Avoid path-related issues by placing everything as close to the root of the drive (example- C:\Lynda\) as possible.
+
 ### PowerShell execution policy: Allow PowerShell to run command scripts
 1. Open PowerShell in Administrator mode, input command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned (source: https://docs.microsoft.com/en-ca/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7)
 ### MSVCR100.dll missing (i.e. nothing is happening): Visual C Runtime is missing
