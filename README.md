@@ -1,7 +1,7 @@
 # LYT-DL
 ### A Lynda.com (LinkedIn Learning) Course Downloader
 
-![LYT-DL_ScreenShot](https://raw.githubusercontent.com/shfqrkhn/lytdl/master/LYT-DL_v1.03.PNG)
+![LYT-DL_ScreenShot](https://raw.githubusercontent.com/shfqrkhn/LYT-DL/master/LYT-DL_v1.04.png)
 
 ## Workflow
 1. Gather all prerequisites (see below).
