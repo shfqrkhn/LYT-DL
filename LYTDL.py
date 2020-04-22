@@ -12,17 +12,17 @@ layout = [
     [sg.Button('Pre-Launch Safety Check'), sg.Button('Launch LYT-DL'), sg.Button('Abort Launch')]
 ]
 
-window = sg.Window('LYT-DL', layout, no_titlebar=True, grab_anywhere=True, border_depth=5)
+window = sg.Window('LYT-DL', layout, no_titlebar=False, grab_anywhere=False, border_depth=5)
 
 while True:
     event, values = window.read()
 
-    cookie_path = "\"" + values[0] + "\""
+    cookie_path = "\"" + str(values[0]) + "\""
     cookie_path = cookie_path.replace("/", "\\")
-    folder_location = values[1]
-    course_url = values[2]
-    folder_name = os.path.split(os.path.dirname(course_url))[1]
-    folder_path = values[1] + "\\" + folder_name + "\\"
+    folder_location = str(values[1])
+    course_url = str(values[2])
+    folder_name = str(os.path.split(os.path.dirname(course_url))[1])
+    folder_path = folder_location + "\\" + folder_name + "\\"
     folder_path = folder_path.replace("/", "\\")
     part_cookie = '.\youtube-dl.exe --download-archive archive.txt --cookies ' + cookie_path + ' -o '
     part_folder = '\"' + folder_path + '%(playlist_index)s - %(title)s.%(ext)s\" '
@@ -35,9 +35,6 @@ while True:
             open('archive.txt', 'w').close()
         if os.path.exists('temp.ps1'):
             open('temp.ps1', 'w').close()
-        # if not os.path.exists(cookie_path):
-        #    qc_pass = False
-        #    sg.Print("Error: 'cookies.txt' not found")
         if ' ' in cookie_path:
             qc_pass = False
             sg.Print("Error: 'Space' found in cookie path")
